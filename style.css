@@ -1,0 +1,83 @@
+/*Whole page styling*/
+body{
+    background-color: rgb(196, 157, 233);
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Nav styling*/
+nav{
+    display:flex;
+    float:left;
+    align-items:center;
+    background-color: blueviolet;
+    width:100%;
+}
+nav img{
+    max-width: 80px;
+
+    margin-right:10px;
+    margin:5px;
+}
+nav a {
+    display:flex;
+    padding: 10px;
+    margin:1%;
+    background-color: purple;
+    justify-content:center;
+    align-items:center;
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 6px;
+    height: 26px;
+}
+/*Form*/
+.searchform{
+    background-color: rgb(173, 92, 250);
+    display:flex;
+    float:left;
+    padding:10px;
+    width:100vw;
+}
+.searchform label{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:2%;
+    padding-right:2%;
+    margin-left:2%;
+    background-color: blueviolet;
+    color:whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.searchform input{
+    margin-left:2%;
+}
+.searchform textarea{
+    border: solid 2px blueviolet;
+}
+/*textarea{
+    background-color: blueviolet;
+}*/
+/*Footer*/
+footer{
+    background-color: blueviolet;
+    color:whitesmoke;
+    display:flex;
+}
+footer div{
+    margin:auto;
+    padding: 20px 0;
+}
+/*.footer-table td{
+    margin:50px;
+}*/
+/*address{
+    background-color: rgb(102, 32, 168);
+}
+.contactform{
+   background-color: rgb(102, 32, 168); 
+}
+.socials{
+    background-color: rgb(102, 32, 168);
+}*/
