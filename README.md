@@ -1,0 +1,1 @@
+The goal of this exercise was to create a basic map page with Google Maps embedded in an iframe to look like a map page from a fictional Estate Agent website. This gave me hands-on experience with the useage of iframes in HTML web pages.
